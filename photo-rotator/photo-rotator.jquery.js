@@ -1,6 +1,5 @@
 /*
 * Photo Rotator Plugin for jQuery
-* Instructions: http://www.scratchinghead.com/jquery/instruction.html
 * By: Herman Lee, http://www.scratchinghead.com
 * Version: 1.0.0
 * Updated: July 27th, 2011
@@ -202,15 +201,11 @@
 	
 	// default options
 	$.fn.photoRotator.option = {
-		preload: false, // boolean, Set true to preload images in an image based slideshow
-		preloadImage: '/images/loading.gif', // string, Name and location of loading image for preloader. Default is "/img/loading.gif"
-		fadeSpeed: 900, // number, set the speed of the fading animation in milliseconds
-		fadeEasing: '', // string, must load jQuery's easing plugin before http://gsgd.co.uk/sandbox/jquery/easing/
-		rotateSpeed: 600, // number, set the speed of the rotating animation in milliseconds
-		rotateEasing: '', // string, must load jQuery's easing plugin before http://gsgd.co.uk/sandbox/jquery/easing/
-		captionSwitch: true, // boolean, set to turn on and off the caption. Default is true
-		captionContainer: '', // string, Class name for caption container. If not set, it create one for you
-		imagesLoaded: function() {} // Function is called when imsages is fully loaded
+		preloadImage: '/images/loading.gif', // String, name and location of loading image for preloader. Default is "/img/loading.gif"
+		fadeSpeed: 900, // Number, set the speed of the fading animation in milliseconds
+		rotateSpeed: 600, // Number, set the speed of the rotating animation in milliseconds
+		captionSwitch: true, // Boolean, set to turn on and off the caption. Default is true
+		captionContainer: '', // String, class name for caption container. If not set, it create one for you
 	};
 
 	/**
