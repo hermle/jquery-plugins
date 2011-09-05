@@ -15,7 +15,7 @@ Supported Browsers
 The plugin has been successfully tested in the following browsers:
 
 * Firefox 3.6
-* Internet Explorer 6.0
+* Internet Explorer 7.0
 * Chrome 13.0
 
 Dependencies
